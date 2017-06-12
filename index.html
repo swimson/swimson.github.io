@@ -27,7 +27,7 @@
         body {
             background-color: #E4494F;
             color: white;
-            font-size: 56px;
+            font-size: 20px;
             font-family: 'Ubuntu', sans-serif;
         }
 
@@ -45,12 +45,32 @@
         }
 
         span.glyphicon {
-            font-size: 40px;
+            font-size: 20px;
         }
 
         .footer {
             font-size: 14px;
         }
+
+        @media (min-width: 768px) {
+            body {
+                font-size: 32px;
+            }
+            span.glyphicon {
+                font-size: 30px;
+            }
+        }
+
+        @media (min-width: 992px ) {
+            body {
+                font-size: 56px;
+            }
+
+            span.glyphicon {
+                font-size: 50px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -62,7 +82,7 @@
 <div class="container">
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-md-9 content">
+        <div class="col-md-9 col-xs-9 content">
             <p>
                 Heyo Heyo!<br/> I'm Kevin Simpson.<br/><br/>
 
@@ -72,7 +92,8 @@
                 I build websites in PHP that are secure, scalable, and accessible. Most of my work is backend related -
                 servers, databases, custom CMS integrations, Symfony bundles, and API calls.<br/><br/>
 
-                Recent projects include <a href="http://www.unchartedthegame.com">unchartedthegame.com</a>,<br/>
+                Recent projects include <br/>
+                <a href="http://www.unchartedthegame.com">unchartedthegame.com</a>,<br/>
                 <a href="https://www.opusbank.com">opusbank.com</a>,<br/>
                 <a href="http://www.lakehousehotelandresort.com">lakehousehotelandresort.com</a>, <br/>
                 <a href="http://www.driscollchildrens.org">driscollchildrens.org</a>,<br/>
@@ -87,14 +108,11 @@
                 <br/><br/>
 
             </p>
-        </div>
 
-        <div class="row footer">
-            <div class="col-md-9 col-md-offset-1">
-                <p>
-                    &copy; Kevin Simpson 2017 | Inspired by <a href="https://www.design-seeds.com/seasons/summer/color-play-2/">DesignSeeds.</a>
-                </p>
-            </div>
+            <p class="footer">
+                &copy; Kevin Simpson 2017 | Inspired by <a
+                    href="https://www.design-seeds.com/seasons/summer/color-play-2/">DesignSeeds.</a>
+            </p>
         </div>
     </div>
 
