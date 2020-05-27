@@ -1,12 +1,87 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
+body {
+    background-color: #E4494F;
+}
+
+h1, h3, p, h1 small, li {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    margin-top: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1 small {
+    font-size: 65%;
+}
+
+strong {
+    font-style: italic;;
+}
 
 
+a {
+    color: #EBF4CE;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #6C546C;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.thank-you {
+    margin-top: 50px;
+}
+
+span.glyphicon {
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 32px;
+    }
+
+    span.glyphicon {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px ) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 45px;
+    }
+
+    span.glyphicon {
+        font-size: 50px;
+    }
+}
 
 
 
